@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="style.css">
+    <div class="container">
+        <img src="images (8).jpg" alt="">
+
+        <h1>Formulir Pendftaran Pondok IT</h1>
+
+        <form action="/action_page.php">
+            <label for="nama">Nama Lengkap</label><br>
+            <input type="text" id="nama" name="nama"><br>
+            <label for="Email">Email</label><br>
+            <input type="text" id="Email" name="Email"> <br>
+            <label for="Password">Password</label><br>
+            <input type="password" id="Password" name="Password"><br>
+
+            <label>Jenis Kelamin</label><br>
+
+            <input type="radio" name="jk"> Laki-laki
+
+            <input type="radio" name="jk"> Perempuan
+            <br><br>
+
+            <label for="tahun Pendaftaran">Tahun Pendaftaran</label>
+
+            <select name="Tahun Pendaftaran" id="tahun Pendaftaran">
+                <option value="">-- Pilih --</option>
+                <option value="tahun 2027">Tahun 2027</option>
+                <option value="tahun 2028">Tahun 2028</option>
+            </select><br><br>
+
+            <label for="Sudah Lulus/ Masih Sekolah">Sudah Lulus/ Masih Sekolah</label>
+
+            <select name="sudah lulus/ masih sekolah" id="sudah lulus/ masih sekolah">
+                <option value="">-- Pilih --</option>
+                <option value="sudah lulus">sudah lulus</option>
+                <option value="masih sekolah">masih sekolah</option>
+            </select><br><br>
+
+            <label for="provinsi">Provinsi</label><br>
+
+            <select id="provinsi" name="provinsi">
+                <option value="">-- Pilih Provinsi --</option>
+                <option value="jabar">Jawa Barat</option>
+                <option value="jateng">Jawa Tengah</option>
+                <option value="jatim">Jawa Timur</option>
+                <option value="banten">Banten</option>
+                <option value="dki">DKI Jakarta</option>
+                <option>Aceh</option>
+                <option>Sumatera Utara</option>
+                <option>Sumatera Barat</option>
+                <option>Riau</option>
+                <option>Kepulauan Riau</option>
+                <option>Jambi</option>
+                <option>Papua Selatan</option>
+                <option>Papua Tengah</option>
+                <option>Papua Pegunungan</option>
+            </select><br><br>
+
+            <label for="Gelombang">Gelombang</label>
+
+            <select name="Gelombang" id="Gelombang">
+                <option value="">-- Pilih --</option>
+                <option value="Gelombang 1">Gelombang 2</option>
+                <option value="Gelombang 3">Gelombang 3</option>
+            </select><br><br>
+
+
+            <label for="foto">Upload Foto</label><br>
+            <input type="file" id="foto" name="foto">
+
+            <input type="submit" value="Daftar Sekarang">
+    </div>
+
+
+    </form>
+</body>
+
+</html>
