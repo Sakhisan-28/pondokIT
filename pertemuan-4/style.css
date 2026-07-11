@@ -1,0 +1,158 @@
+.body {
+    background: linear-gradient(135deg, #7EE8C7, #7CB9FF);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #1976D2;
+    padding: 20px;
+    border-radius: 20px;
+    height: 80px;
+}
+
+.header img {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.header h1 {
+    margin: 0;
+    margin-left:20px;
+}
+
+.tampilan {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+
+    background:linear-gradient(
+        90deg,
+  
+    );
+
+    border-radius:25px;
+    padding:70px;
+}
+
+
+
+.deskripsi hr{
+    width: 163%;
+    display: flex;
+    flex-direction: column;
+    margin-left: -30%;
+    margin-top: 90px
+
+}
+
+.deskripsi h1{
+    font-size: 45px;
+    color: #003366;
+    margin-bottom: 20px;   
+}
+
+.deskripsi p{
+    font-size: 18px;
+    color: #555;
+    line-height: 30px;
+    width: 60%;
+    margin-top: -0px;  
+    height: 20%; 
+}
+
+.deskripsi button {
+    padding:18px 40px;
+    border:none;
+    border-radius:10px;
+    background:#2563eb;
+    color:white;
+    font-size:20px;
+    cursor:pointer;
+
+    box-shadow:0 12px 25px rgba(37,99,235,.3);
+
+}
+
+
+
+
+.gambar{
+    position: relative;
+    width: 230px;
+    height: 220px;
+    
+    margin-left: auto;
+    margin-right: 90px;  /* makin besar = makin ke kiri */
+    margin-top: 100px;    /* turun ke bawah */
+    position: relative;
+    top: -50px;
+    left: 80px;
+
+    top: -90px;   /* naik 40px */
+}
+
+.foto1{
+    width: 320px;
+    position: absolute;
+    top: 3px;
+    right: 110px;
+    border-radius: 150px;
+    object-fit: cover;
+}
+
+.foto2{
+    width: 280px;
+    position: absolute;
+    top: -40px;
+    right: 10%;
+    border-radius: 100px;
+    object-fit: cover;
+    left: -20;
+}
+
+.video video{
+    width: 100%;
+    max-width: 800px;
+    border-radius: 15px;
+}
+
+.Profil {
+    background:#2563eb;
+    background-color: ;
+    border-radius: 10px;
+     padding:18px 40px;
+      padding:18px 40px;
+    
+}
+
+.audio{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.audio h2{
+    color: #1565C0;
+    margin-bottom: 20px;
+}
+
+.audio audio{
+    width: 400px;
+}
+
+.informasi{
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.gambar img{
+    width: 350px;
+    border-radius: 15px;
+}
+
+.list{
+    flex: 1;
+}
