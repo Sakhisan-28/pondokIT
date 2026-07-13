@@ -1,0 +1,264 @@
+body{
+    margin: 0;
+    background-color: #F5F1E8;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: brown;
+    padding: 15px 40px;
+}
+
+.navbar h1{
+    color: white;
+    margin: 0;
+    font-size: 32px;
+}
+
+
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 25px;
+    font-weight: bold;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+
+    min-height: 100vh;
+
+     padding: 80px 60px;
+
+       background: linear-gradient(
+        to right,
+        #F5F1E8 50%,
+        #6F4E37 75%,
+        #1E1E1E 100%)
+}
+
+.hero-text{
+    width: 50%;
+    margin-top: -10px;
+}
+
+.hero-text h2{
+    font-size: 45px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.hero-text h3{
+    color: brown;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.hero-text p{
+    font-size: 28px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.hero-image{
+    width: 50%;
+    text-align: right;
+}
+
+.hero-image img{
+        width: 500px;
+        border-radius: 50px;
+        overflow: hidden;
+}
+
+.keunggulan{
+    padding: 50px;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    gap: 60px;
+    background-color: #EBD8C3;
+}
+
+
+.video{
+   flex: 1;
+}
+
+.video video{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.keunggulan-text{
+    flex: 1;
+    text-align: left;
+}
+
+.keunggulan h2{
+    color: brown;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.keunggulan ul{
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+.keunggulan li{
+    font-size: 22px;
+    margin: 15px 0;
+    text-align: left;
+}
+
+.operasional{
+    display: flex;
+    align-items: center;
+    background-color: #F8F5EF;
+
+    padding: 60px;
+    gap: 80px;
+
+}
+
+.Jam{
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.lokasi{
+    flex: 1;
+    padding-left: 40px;
+}
+
+.lokasi p{
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.operasional h2{
+    color: brown;
+    font-size: 35px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+table{
+    width: 70%;
+    border-collapse: collapse;
+    text-align: center;
+    align-items: center;
+    margin: 20px auto;
+    border-collapse: collapse;
+     margin: 20px auto;
+}
+
+th{
+    background: brown;
+    color: white;
+}
+
+th,
+td{
+    padding: 15px;
+    border: 1px solid #999;
+}
+
+.footer{
+    background-color: #4b2e2e;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer h2{
+    margin-bottom: 15px;
+}
+
+.footer p{
+    margin: 8px 0;
+}
+
+.footer hr{
+    width: 250px;
+    margin: 20px auto;
+}
+
+.about{
+    background-color: #FFFFFF;
+    padding: 60px;
+}
+
+.keunggulan-text audio{
+    width: 300px;
+    margin-top: 25px;
+}
+
+.audio-title{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: brown;
+    font-weight: bold;
+}
+
+.btn-order{
+    display: inline-block;
+    background-color: brown;
+    color: white;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.btn-order:hover{
+    background-color: #5a2d0c;
+    transform: scale(1.05);
+}
+
+.keunggulan ul{
+    list-style: none;
+    padding: 0;
+}
+
+.keunggulan li::before{
+    content: "✔";
+    color: brown;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.lokasi-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.lokasi{
+    flex: 1;
+}
+
+.map{
+    flex: 1;
+}
+
+.map iframe{
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+}

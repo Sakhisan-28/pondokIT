@@ -240,3 +240,25 @@ td{
     font-weight: bold;
     margin-right: 10px;
 }
+
+.lokasi-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.lokasi{
+    flex: 1;
+}
+
+.map{
+    flex: 1;
+}
+
+.map iframe{
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+}
