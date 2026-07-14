@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 40px;
+}
+
+#judul{
+    text-align: center;
+    margin-bottom: 25px;
+    color: brown;
+}
+
+.Hobi{
+    color: brown;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.skill {
+    color: brown;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+div{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+p{
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+ul{
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+li{
+    margin-bottom: 8px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+}
+
+table th{
+    background-color: brown;
+    color: white;
+}
+
+table th,
+table td{
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: center;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+input:focus{
+    outline: none;
+    border-color: brown;
+    box-shadow: 0 0 5px rgba(165,42,42,0.4);
+}
