@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(asset/image-land.jpg);
+  background-repeat: no-repeat;
+  height: 400px;
+  color: white;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.navbar {
+  background-color: rgb(89, 89, 169);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 50px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+
+  transition: 0.3s;
+}
+
+.navbar ul li a {
+  color: gold;
+}
+
+.foto {
+  margin-top: 20px;
+  margin-left: 35px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 50px;
+}
+
+.h1 {
+  color: #ffd700;
+  margin-bottom: 50px;
+  margin-top: -150px;
+  font-size: 40px;
+}
+
+.hero-text {
+  width: 45%;
+  color: white;
+}
+
+.hero-image img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.navbar h1 {
+  font-family: "Orbitron", sans-serif;
+}
+
+.hero-text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #f0f0f0;
+  line-height: 1.8;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 30px;
+
+  background: #ffd700;
+  color: black;
+
+  padding: 15px 35px;
+
+  text-decoration: none;
+  font-family: "Black Ops One", cursive;
+  font-size: 18px;
+
+  border-radius: 10px;
+
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: white;
+  color: rgb(89, 89, 169);
+
+  transform: scale(1.05);
+}
+
+.keunggulan {
+  padding: 80px 50px;
+  text-align: center;
+  color: white;
+}
+
+.keunggulan h2 {
+  font-size: 40px;
+  font-family: "Black Ops One", cursive;
+  color: #ffd700;
+  margin-bottom: 50px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  width: 300px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+
+  padding: 30px;
+  border-radius: 15px;
+
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card h3 {
+  margin-bottom: 15px;
+  color: #ffd700;
+}
+
+.card p {
+  color: #ddd;
+  line-height: 1.6;
+}
+
+.harga {
+  padding: 80px 50px;
+  text-align: center;
+  color: white;
+}
+
+.harga h2 {
+  font-size: 40px;
+  color: #ffd700;
+  margin-bottom: 30px;
+  font-family: "Black Ops One", cursive;
+}
+
+.harga table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+.harga th {
+  background: #ffd700;
+  color: black;
+  padding: 15px;
+}
+
+.harga td {
+  padding: 15px;
+  border: 1px solid white;
+}
+
+.harga tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.testimoni {
+  padding: 80px 50px;
+  text-align: center;
+  color: white;
+}
+
+.testimoni h2 {
+  color: #ffd700;
+  font-size: 40px;
+  margin-bottom: 40px;
+  font-family: "Black Ops One", cursive;
+}
+
+.card-testi {
+  width: 500px;
+  margin: auto;
+
+  background: rgba(255, 255, 255, 0.1);
+
+  padding: 30px;
+
+  border-radius: 15px;
+}
+
+.card-testi p {
+  margin: 20px 0;
+  line-height: 1.7;
+}
+
+footer {
+  margin-top: 80px;
+
+  background: #111;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 40px;
+}
+
+footer h2 {
+  color: #ffd700;
+  margin-bottom: 20px;
+}
+
+footer p {
+  margin: 10px;
+}
+
+.card:hover,
+.card-testi:hover {
+  transform: translateY(-10px);
+
+  box-shadow: 0 10px 30px rgba(255, 215, 0, 0.3);
+}
