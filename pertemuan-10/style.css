@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #fff3e6, #ffd6a5);
+
+  display: flex;
+  justify-content: center; /* tengah kanan-kiri */
+  align-items: center; /* tengah atas-bawah */
+  min-height: 100vh;
+}
+.card {
+  width: 500px;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  flex-direction: column;
+  display: flex;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  margin: 25px auto 15px;
+  display: block;
+}
+
+.profile-header {
+  height: 180px;
+  background: linear-gradient(135deg, #723c08, #ffb347);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-hard img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid rgb(138, 17, 17);
+}
+
+h1 {
+  color: rgb(95, 66, 19);
+  padding: 0px 0px 0px 140px;
+}
+
+h2 {
+  color: rgb(95, 66, 19);
+  padding: 0px 0px 0px 10px;
+}
+
+p{
+    font-size:17px;
+    line-height:1.8;
+    color:#555;
+    font-weight:400;
+    padding: 20px;
+}
+
+button {
+    width:90%;
+    margin:20px auto;
+    display:block;
+    padding: 20px;
+
+  background: rgba(255, 102, 0, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  border: 1px solid rgba(255, 102, 0, 0.4);
+  border-radius: 10px;
+
+  color: #bd5f21d3;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+
+  margin-top: auto;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #361703;
+  color: white;
+}
+
+button:hover {
+  background: #e65c00;
+}
+
+
+.btn{
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+    padding: 14px;
+
+    background: #f59e0b;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+    border-radius: 12px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.btn:hover{
+    background: #d97706;
+    transform: translateY(-3px);
+}
